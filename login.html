@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="java/theme.js"></script>
+    <script src="java/themestyle.js"></script>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/n.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="shortcut icon" href="photos/1652186755029.jpg">
+    </head>
+    <style>
+    </style>
+    <body>
+        <nav>
+            <div class="menu">
+              <div class="logo">
+                <a href="index.html">FAMA</a>
+              </div>
+              <ul>
+                <li><a href="login.html">Log In</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reviews.html">Review</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class="container">
+            <div class="header">
+                <h1>Login</h1>
+            </div>
+             <div class="main">
+                <form method="POST" novalidate>
+                        <span>
+                            <i class="fa fa-user"></i>
+                          <input id="us_name" type="text" placeholder="username">
+                        </span><br>
+                      <span>
+                        <i class="fa fa-lock"></i>
+                        <input id="pass_pa" type="password" placeholder="password">
+                      </span><br>
+                    <button onclick="check()">submit</button>
+                </form> 
+                <!--<div class="rot">
+                    <button type="button" class="btn">I am new here</button>
+                </div>-->
+                <div class="fp">
+                <a href="#">Forget Password</a>
+                </div>
+             </div>        
+
+         </div>
+         <script>
+             function check() {
+                 var us_name=document.getElementById("us_name").value ;
+                 var pass_pa=document.getElementById("pass_pa").value ;
+                 if (us_name==""&& pass_pa=="") {
+                     alert("Enter Username and Password");
+                 }
+                 else if  (us_name==""){
+                    alert("Enter Username ");
+                 }
+                 else if (pass_pa=="") {
+                    alert("Enter Password");
+                 }
+                 else {
+                     alert("Login successfully");
+                     location.reload();
+                 }
+             }
+         </script>
+    </body>
+</html>
