@@ -1,0 +1,204 @@
+body {
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#review {
+    font-family: poppins;
+}
+a {
+    text-decoration: none;
+}
+
+nav{
+    position: absolute;
+    background: var(--nav-color);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 5;
+  }
+
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: rgb(228, 218, 218);
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+
+.whole {
+    padding-top: 100px;
+}
+
+#review {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.review-heading {
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.review-heading h1 {
+    padding: 10px 20px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    background-color: #202020;
+    color: #ffffffe0;
+    text-transform: capitalize;
+    position: relative;
+    bottom: 41px;
+}
+
+
+.review-heading span {
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    color: #252525;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    position: relative;
+    top: 99px;
+    font-weight: 700;
+}
+
+.review-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.review-box {
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    cursor: pointer;
+    background-color: #202020;
+    padding: 20px;
+    margin: 15px;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    transition-duration: 0.2s;
+}
+
+.profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-username {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-username strong {
+    color: #ffffffb3;
+    letter-spacing: 0.5px;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.profile-username span {
+    color: #979797;
+    font-size: 0.8rem;
+}
+
+.review {
+    color: #f9d71c;
+}
+
+.box-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.client-comment p {
+    font-size: 0.9rem;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.review-box:hover {
+    transform: translateY(-10px);
+    transition-property: all;
+    transition-timing-function:ease;
+    transition-duration: 0.3s;
+    
+}
+
+.profile-username span:hover {
+    text-decoration: underline;
+}
+
+p:hover {
+    cursor: text;
+}
+
+.profile-img:hover {
+    transform: scale(1.18);
+}
+
+
+    

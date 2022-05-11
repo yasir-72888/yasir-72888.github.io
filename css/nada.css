@@ -1,0 +1,152 @@
+.whole{
+direction: rtl;
+}
+::selection{
+    background-color: rgba(0, 0, 0, 0.823);
+    color: whitesmoke;
+}
+.body{
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    position: relative;
+    width: auto;
+    height: auto;
+
+}
+nav{
+    position: absolute;
+    background: var(--nav-color);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 5;
+    top: -8px;
+    left: -7px;
+    direction: ltr;
+
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: rgb(228, 218, 218);
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    position: relative;
+    top: 18px;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+
+.whole {
+    padding-top: 152px;
+}
+.image{
+width: 350px;
+height: 200px;
+box-shadow:rgba(0, 0, 0, 0.697);
+margin-top: 30px;
+box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.57);
+margin-right: 600px;
+margin-top: 2.5px;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgba(71, 69, 67, 0.185) ;
+    box-shadow: 10px 10px 10px 0 rgb(71, 69, 67);
+    width: 350px;
+    margin-right: 600px;
+}
+.dec{
+    margin-top: -30px;
+}
+.text{
+    text-align: right;
+    margin-top: -45px;
+    font-size: x-large;
+}
+.title{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    text-shadow:  black 10px ;
+    box-shadow: 10px 10px 10px 0 rgb(71, 69, 67);
+    width: 100px;
+}
+ul{
+    font-size: larger;
+    margin-top: -15px;
+}
+.img{
+    width: 170px;
+    height: 300px;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: rgba(71, 69, 67, 0.185) ;
+    box-shadow: 10px 10px 10px 0 rgb(71, 69, 67);
+    width: 300px;
+    margin-right: 600px;
+}
+.name{
+    font-size: larger;
+    font-weight: bold;
+}
+.name1{
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 110px;
+}
+.photos{
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.film2{
+   margin-right: 250px;
+   margin-top: -365px;
+}
+.video{
+    margin-right: 500px ;
+    margin-top: -400px;
+}
+.film3{
+    margin-right: 920px;
+    margin-top: -330px;
+ }
+ .film4{
+    margin-right: 1200px;
+    margin-top: -365px;
+ }

@@ -1,0 +1,45 @@
+.error{
+    background-image: url(../photos/جراي.jpg);
+    background-attachment: fixed;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   height: 800px;
+   
+    
+}
+.holder{
+   
+    flex-direction: column;
+    text-align: center;
+    /*  يكزنوا تحت بعض وفي النص */
+   margin-bottom: 400px;
+ 
+   
+}
+.holder img{
+    width: 30%;
+    
+
+    margin-top: 150px;
+    
+}
+
+ .holder a{
+    font-size: 13px;
+    text-decoration: none;
+    /* نشيل الخط من تحت اللينك */
+    color:black;
+    background-color: rgb(125, 125, 170);
+    border-radius: 4px;
+    padding:12px 13px;
+    font-family: "Rupik",sans-serif;
+    /*  */
+  margin-bottom: gray 500px;
+
+
+  box-shadow: 3px 3px 3px 3px rgb(55, 44, 116);
+}
+
+
+

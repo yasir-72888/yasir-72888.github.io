@@ -1,0 +1,201 @@
+::selection{
+    color:black ;
+    background-color: gray;
+}
+
+body {
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    position: absolute;
+    background: var(--nav-color);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: rgb(228, 218, 218);
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+
+.whole {
+    padding-top: 152px;
+}
+h1{
+color: rgb(0, 0, 0);
+font-size: xx-large; 
+font-weight: bolder;
+font-size: 100px;
+width: 100px;
+text-align: center;
+margin-left: 600px;
+margin-top: -20px;
+
+}
+h2{
+
+text-align: center;
+color: rgba(0, 0, 0, 0.649);
+}
+.image{
+    width: 158px;
+    height: 199px;
+   /* border-radius: 50% 50%;*/
+    margin-left: -30px;
+    box-shadow: 15px 15px 15px 0 rgba(0, 0, 0, 0.741);
+    margin-top: -30px;
+    
+}
+.section1{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    margin-top: -30px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section2{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section3{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 250px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section4{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 500px;
+    margin-top: -900px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section5{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 500px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section6{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 500px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section7{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 750px;
+    margin-top: -900px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section8{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left:750px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section9{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 750px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section10{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left:1000px;
+    margin-top: -900px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section11{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left:1000px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+.section12{
+    background-color: rgba(128, 128, 128, 0.693);
+    width: 100px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 1000px;
+    padding: 55px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.555);
+}
+
+
+

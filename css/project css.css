@@ -1,0 +1,530 @@
+body {
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: absolute;
+    background: var(--nav-color);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: rgb(228, 218, 218);
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+
+.whole {
+    padding-top: 80px;
+}
+
+::selection{
+    color:black;
+    background-color:silver;
+}
+
+
+
+.hh{
+    position: relative;
+    /*  */
+    min-height: 100px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+/*  */
+   
+ 
+} 
+
+.image .v{
+    margin-right: -550px;
+    margin-top: -100px;
+} 
+
+.image {
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 341px;
+    height: 252px;
+    position: relative;
+    left: -8px;
+ 
+}
+.image img {
+    transition-duration: 0.5s;
+transition-timing-function: linear;
+position: relative;
+animation: change 10s infinite;
+animation-timing-function: linear;
+animation-delay: 2s;
+}
+@keyframes change{
+    0%{
+        content:url(../photos/شابه.jpg);
+        height: 100%;
+        width: 100%;
+    }
+    25%{
+        content:url(../photos/فنيه.jpg);
+        height: 100%;
+        width: 100%;  
+    }
+    50%{
+        content:url(../photos/زوجها.jpg);
+        height: 100%;
+        width: 100%;  
+    }
+    75%{
+        content:url(../photos/وفاتها.jpg);
+        height: 100%;
+        width: 100%;   
+    }
+}
+
+
+
+.iimage img{
+
+transition-duration: 0.5s;
+transition-timing-function: linear;
+position: relative;
+animation: helana 10s infinite;
+animation-timing-function: linear;
+animation-delay: 2s;
+
+
+}
+@keyframes helana{
+0%{
+content:url(../photos/شاب.jpg);
+height: 100%;
+width: 100%;
+}
+25%{
+content:url(../photos/غناء.jpg);
+height: 100%;
+width: 100%;  
+}
+50%{
+content:url(../photos/زواجه.jpg);
+height: 100%;
+width: 100%;  
+}
+75%{
+content:url(../photos/موته.jpg);
+height: 100%;
+width: 100%;   
+}
+}
+
+
+
+
+
+
+.p .v{
+   
+    
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -50px;
+    margin-right: -550px;
+    
+    
+
+}
+.v{
+    border: 1px solid;
+    padding: 20px;
+    resize: horizontal;
+    overflow: auto;
+    width: 380px;
+    height: 650px;
+    box-shadow: 10px 10px 10px 10px gray;
+    margin-left: 400px;
+  margin-top: 50px;
+  overflow-x: hidden;
+
+}
+.b1{
+    width:100px;
+    background:#eee;
+    color:navy;
+    padding:10px ;
+    font-size: 18px;
+   
+border-radius :20px; 
+
+border: 1px solid;
+resize: horizontal;
+
+width: 80px;
+height: 50px;
+box-shadow: 3px 3px 3px 3px black;
+margin-left: 0px;
+text-decoration: none;
+/* اشيل الخط اللي تحت اللينك */
+
+}
+.b2{
+    width:100px;
+    background:#eee;
+    color:navy;
+    padding:10px ;
+    font-size: 18px;
+    
+border-radius :20px; 
+border: 1px solid;
+padding: 10px;
+resize: horizontal;
+width: 90px;
+height: 50px;
+box-shadow: 3px 3px 3px 3px black;
+margin-right: 0px;
+
+text-decoration: none;
+/* اشيل الخط اللي تحت اللينك */
+
+}
+.b1:hover{
+    color:blue;
+    cursor: pointer;
+    /* شكل الموس هيتغير */
+   background-color: silver ;
+   transform: scale(1.1);
+ /* حجم الكبران لما اقف بالموس علي الزورار */
+}
+.b2:hover{
+    color:blue;
+    cursor: pointer; 
+    background-color:silver ;
+    transform: scale(1.1);
+    
+}
+.a{
+    
+    color:blue;
+}
+
+
+
+
+
+
+
+.iimage .o{
+    margin-right: -550px;
+    margin-top: -100px;
+   
+}
+.p .o{
+     width: calc(30% - 10px);
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -50px;
+    margin-right: -550px;
+    
+    
+
+}
+.o{
+    border: 1px solid;
+    padding: 20px;
+    resize: horizontal;
+    overflow: auto;
+    width: 380px;
+    height: 650px;
+    box-shadow: 10px 10px 10px 10px gray;
+    margin-left: -400px;
+margin-top: -650px;
+overflow-x: hidden;
+}
+.hh .v .image{
+    width: 341px;
+    height: 252px;
+    position: relative;
+    left: -8px;
+   
+}
+.v .image img {
+    width: 100%;
+    height: 100%;
+}
+.hh .v .image:hover{
+    cursor: pointer;
+    
+}
+
+
+.nn .o .iimage{
+    transition-duration: 0.5s;
+    transition-timing-function: linear;
+    width: 341px;
+    height: 252px;
+    position: relative;
+    left: -8px;
+}
+.o img {
+    width: 100%;
+    height: 100%;
+
+}
+.nn .o .iimage:hover{
+    cursor: pointer;
+    
+}
+
+ .video{
+    margin-top: -710.5px;
+  margin-right: -1200px;
+ margin-bottom: 100px;
+
+}
+.ivideo{
+    margin-top: 0px; 
+    margin-left: -1200px;
+  margin-bottom: 100px; 
+
+}
+.ll{
+
+  
+    position: absolute;
+    bottom: 102px;
+    right: 50px;
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+}
+.ll img {
+    width: 236px;
+    height: 236px;
+    border-radius: 70%;
+    transition-duration: 0.2s;
+}
+.ll img:hover{
+    cursor: pointer;
+    transform: scale(1.06);
+   
+}
+.s {
+  
+    position: absolute;
+    top: 102px;
+    left: 50px;
+    width: 236px;
+    height: 236px;
+    border-radius: 50%;
+   
+}
+.s img {
+    width: 236px;
+    height: 236px;
+    border-radius: 70%;
+    transition-duration: 0.2s;
+    
+}
+.s img:hover {
+    cursor: pointer;
+    transform: scale(1.06);  
+}
+.ff{
+    background-color:rgb(166, 148, 148) ;
+    font-size: 30px;
+   position: absolute;
+   top: 410px;
+   right: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(106, 74, 74);
+border-radius: 10px;
+
+}
+.mm{
+      box-shadow: 10px 10px 10px 10px rgb(106, 74, 74);
+  border-radius: 10px;
+  background-color:rgb(166, 148, 148) ;
+  font-size: 30px;
+  position: absolute;
+    left: 45px;
+    top: 407px;
+}
+
+
+
+
+
+
+
+
+.p1{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215);
+   
+}
+
+.p2{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215);
+}
+
+.p3{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+.p4{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+
+.p5{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+.p6{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+
+.p7{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+
+
+
+#p1{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+#p2{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+#p3{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+#p4{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+#p5{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+#p6{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+#p7{
+    font-size: x-large;
+   
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow:  10px 10px 10px 0 rgb(73, 73, 105);
+    background-color: rgba(12, 0, 0, 0.215); 
+}
+
+
+
+
+
+

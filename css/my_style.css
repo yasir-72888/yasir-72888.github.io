@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    
+}
+#html, .body{
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+nav{
+    position: absolute;
+    background: var(--nav-color);
+    width: 100%;
+    padding: 10px 0;
+    z-index: 5;
+    top: 0px;
+    left: 0px;
+  }
+  nav .menu{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .menu .logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .menu ul{
+    display: inline-flex;
+  }
+  .menu ul li{
+    list-style: none;
+    margin-left: 7px;
+  }
+  .menu ul li:first-child{
+    margin-left: 0px;
+  }
+  .menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .menu ul li a:hover{
+    background: #fff;
+    color: black;
+  }
+
+.whole {
+    padding-top: 30px;
+}
+
+header{
+    background-color: rgb(0, 0, 0) ;
+    color:aliceblue;
+    width:100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 180px;
+    top: 0;
+}
+.Logo{
+    text-decoration: none;
+    color:beige;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.navigation a{
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 30px;
+
+}
+.navigation a:hover{
+   color: rgb(169, 169, 133);
+   
+}
+.Logo a:hover{
+   color: rgb(169, 169, 133);
+}
+/*.body{
+    font-family: 'Pacifico', cursive;
+    width: 100%; 
+    height:100%;
+    display: flex;
+    justify-content: center;
+     align-items: center;     hight:auto; 
+    background-color: rgb(243, 243, 174);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.504),rgba(0, 0, 0, 0.367)),url('l2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}*/
+.cv{
+    min-width: 70%; 
+    height: 550px;
+    border: 4px solid #000;
+    border-radius: 4px;
+    transform: translate(0,100px);
+    padding: 20px 15px;
+    /* margin top, left*/
+   /* margin-left: -550px;
+    */
+}
+
+
+#hed{
+    font-size: 40px;
+    color:black;
+    font-weight:500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style:normal;
+    text-align: center;
+}
+.branch{
+    font-size:30px;
+    color:#000;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-left: 100px;
+}
+.content{
+    font-size: 25px;
+    font-style: oblique;
+ /*   padding-left: 20px;*/
+   position: relative;
+
+}
+.image{
+    width: 30%;
+   /*  height: 70%; */
+    position: absolute;
+    right: 2%;
+    top: 50px;
+
+}
+ .body{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-image: url("/images/light.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 3500px;
+    
+    
+}
+.h1, .h2, .h3, .h4{
+    margin-top: 30px;
+}
+.paragraph{
+   max-width: 70%;
+    height: 100px;
+    justify-content: center;
+   
+    
+    
+}
+.ztower,.built-pro{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-height: 600px;
+   
+}
+.p2, .p1, .p3, .p4, .h, .hs, .write{
+    margin: 30px;
+    padding: 10px;
+
+}
+.p1{
+    margin-top: 10px;
+}
+.body{
+    background-image: var(--bg-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.h1, .h2, .h3, .h4{
+    margin: 15px;
+    padding: 15px;
+    
+}
+.h5{
+    display: flex;
+    justify-content: center;
+    color: #00000094;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+.content2{
+    display: flex;
+    justify-content: center;
+    flex-direction:  row;
+    flex-wrap: wrap;
+     
+}
+.card1, .card2{
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    margin: 0px 0px 30px 30px;
+}
+.bmw-headquarter{
+    width: 210px;
+    height: 170px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.icon2 .card2 {
+    margin-bottom: 30px;
+}
+.icon .icon2 {
+    position: absolute;
+}
